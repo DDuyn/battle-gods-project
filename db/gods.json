@@ -729,12 +729,12 @@
     "name": "Zeus",
     "title": "God of the Sky",
     "pantheon": "Greek",
-    "image": "Zeus.png"
+    "image": "Zeus.webp"
   },
   {
     "name": "Zhong Kui",
     "title": "the Demon Queller",
     "pantheon": "Chinese",
-    "image": "Zhong-Kui.png"
+    "image": "Zhong-Kui.webp"
   }
 ]

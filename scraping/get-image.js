@@ -23,7 +23,7 @@ export const getImageSkin = async (url, godName) => {
 			.replace(/"/g, '')
 	})
 
-	const filename = `${godName.replaceAll(' ', '-')}.webp`
+	const filename = `${godName.replaceAll(' ', '-')}.png`
 	await downloadImage(image, filename)
 
 	await browser.close()
