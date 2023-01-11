@@ -11,4 +11,5 @@ export const readDBFile = (dbName) => {
   return readFile(`${DB_PATH}/${dbName}.json`, 'utf-8').then(JSON.parse)
 }
 
-export const GODS = await readDBFile('gods')
+export const getGods = async () => await readDBFile('gods')
+// export const GODS = await readDBFile('gods')

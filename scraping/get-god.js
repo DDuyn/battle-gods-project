@@ -18,6 +18,20 @@ export const getGodTitle = async (godCardHtmlElement, isNewGod) => {
     : godTitle
 }
 
+export const getPantheon = async (godCardHtmlElement) => {
+  const godPantheonDetail = await getDetailPantheonHtmlElement(godCardHtmlElement)
+    .then(async (x) => {
+      const iconClass = await x.getAttribute('class')
+      return iconClass.substring(5)
+    })
+  return godPantheonDetail.charAt(0).toUpperCase() + godPantheonDetail.slice(1)
+}
+
+const getDetailPantheonHtmlElement = async (godCardHtmlElement) => {
+  return godCardHtmlElement
+    .$('div[class="gods__card"] > div[class="gods__details"] > div[class="details__pantheon"] > i')
+}
+
 const getDetailNameHtmlElement = async (godCardHtmlElement) => {
   return godCardHtmlElement
     .$('div[class="gods__card"] > div[class="gods__details"] > div[class="gods__details--top"] > div[class="details__name"]')
