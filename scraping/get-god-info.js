@@ -24,8 +24,9 @@ export const getGodInfo = async (godsHtmlElements) => {
 			const title = await getGodTitle(godHtmlElement, isNewGod)
 
 			const url = GODS_URL + (await godHtmlElement.getAttribute('href'))
-			const image = await (await getImageSkin(url, name)).replace(/('|\s)/g, '-').toLowerCase()
 			const id = name.replaceAll(/('|\s)/g, '-').toLowerCase()
+
+			const image = await getImageSkin(url, id)
 
 			godsToSave.push({
 				id,

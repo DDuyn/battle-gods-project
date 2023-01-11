@@ -11,7 +11,11 @@ const gods = await response.json()
 			{
 				gods.map(({ id, name, title, image }) => (
 					<a href={`/god/${id}`}>
-						<img class='aspect-square w-80' src={`${image}`} alt={`image ${name}`} />
+						<img
+							class='aspect-square w-80'
+							src={`assets/static/god/${image}`}
+							alt={`image ${name}`}
+						/>
 					</a>
 				))
 			}

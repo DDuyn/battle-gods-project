@@ -1,13 +1,11 @@
-import { createWriteStream, unlink } from 'fs'
-import https from 'https'
 import path from 'node:path'
 import { chromium } from 'playwright'
 import sharp from 'sharp'
+import { logInfo } from '../utils/logger.js'
 
-const INPUT_PATH = path.join(process.cwd(), 'assets', 'static', 'gods')
-const OUTPUT_PATH = path.join(process.cwd(), 'assets', 'static', 'gods')
+const STATICS_PATH = path.join(process.cwd(), './public/gods')
 
-export const getImageSkin = async (url, godName) => {
+export const getImageSkin = async (url, id) => {
 	const browser = await chromium.launch()
 	const page = await browser.newPage()
 
@@ -15,37 +13,31 @@ export const getImageSkin = async (url, godName) => {
 
 	const godProfileHtmlElement = await page.mainFrame().waitForSelector('div.skins__list')
 	const elementHandle = await godProfileHtmlElement.$('div[class="single__skin"]')
-	const image = await elementHandle.evaluate(async (element) => {
+	const urlImage = await elementHandle.evaluate(async (element) => {
 		return await window
 			.getComputedStyle(element)
 			.getPropertyValue('background-image')
 			.slice(4, -1)
 			.replace(/"/g, '')
 	})
-
-	const filename = `${godName.replaceAll(' ', '-')}.png`
-	await downloadImage(image, filename)
-
 	await browser.close()
-	return filename.replace('.png', '.webp')
+
+	return saveImage(urlImage, id)
 }
 
-const downloadImage = async (url, filename) => {
-	await https.get(url, async (response) => {
-		const filePath = path.join(INPUT_PATH, filename)
-		const file = await createWriteStream(filePath)
-		response.pipe(file)
-		await file.on('finish', async () => {
-			await optimizeImage(filename)
-			await unlink(filePath, () => {})
-			file.close()
-		})
-	})
-}
+const saveImage = async (url, fileName) => {
+	logInfo(`Fetching image for file name: ${fileName}`)
+	const responseImage = await fetch(url)
+	const arrayBuffer = await responseImage.arrayBuffer()
+	const buffer = Buffer.from(arrayBuffer)
 
-const optimizeImage = async (file) => {
-	const filePath = path.join(INPUT_PATH, file)
-	const outputPath = path.join(OUTPUT_PATH, file.replace('.png', '.webp'))
+	logInfo(`Writing image to disk ${fileName}`)
 
-	await sharp(filePath).webp({ effort: 6 }).toFile(outputPath)
+	const imageFileName = `${fileName}.webp`
+	const imageFilePath = path.join(STATICS_PATH, imageFileName)
+	await sharp(buffer).webp().toFile(imageFilePath)
+
+	logInfo(`Everything is done! ${fileName}`)
+
+	return imageFileName
 }
