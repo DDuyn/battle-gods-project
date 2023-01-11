@@ -1,740 +1,863 @@
 [
   {
+    "id": "achilles",
     "name": "Achilles",
     "title": "Hero of the Trojan War",
     "pantheon": "Greek",
-    "image": "Achilles.webp"
+    "image": "achilles.webp"
   },
   {
+    "id": "agni",
     "name": "Agni",
     "title": "God of Fire",
     "pantheon": "Hindu",
-    "image": "Agni.webp"
+    "image": "agni.webp"
   },
   {
+    "id": "ah-muzen-cab",
     "name": "Ah Muzen Cab",
     "title": "God of Bees",
     "pantheon": "Maya",
-    "image": "Ah-Muzen-Cab.webp"
+    "image": "ah-muzen-cab.webp"
   },
   {
+    "id": "ah-puch",
     "name": "Ah Puch",
     "title": "Horrific God of Decay",
     "pantheon": "Maya",
-    "image": "Ah-Puch.webp"
+    "image": "ah-puch.webp"
   },
   {
+    "id": "amaterasu",
     "name": "Amaterasu",
     "title": "The Shining Light",
     "pantheon": "Japanese",
-    "image": "Amaterasu.webp"
+    "image": "amaterasu.webp"
   },
   {
+    "id": "anhur",
     "name": "Anhur",
     "title": "Slayer of Enemies",
     "pantheon": "Egyptian",
-    "image": "Anhur.webp"
+    "image": "anhur.webp"
   },
   {
+    "id": "anubis",
     "name": "Anubis",
     "title": "God of the Dead",
     "pantheon": "Egyptian",
-    "image": "Anubis.webp"
+    "image": "anubis.webp"
   },
   {
+    "id": "ao-kuang",
     "name": "Ao Kuang",
     "title": "Dragon King of the Eastern Seas",
     "pantheon": "Chinese",
-    "image": "Ao-Kuang.webp"
+    "image": "ao-kuang.webp"
   },
   {
+    "id": "aphrodite",
     "name": "Aphrodite",
     "title": "Goddess of Beauty",
     "pantheon": "Greek",
-    "image": "Aphrodite.webp"
+    "image": "aphrodite.webp"
   },
   {
+    "id": "apollo",
     "name": "Apollo",
     "title": "God of Music",
     "pantheon": "Greek",
-    "image": "Apollo.webp"
+    "image": "apollo.webp"
   },
   {
+    "id": "arachne",
     "name": "Arachne",
     "title": "the Weaver",
     "pantheon": "Greek",
-    "image": "Arachne.webp"
+    "image": "arachne.webp"
   },
   {
+    "id": "ares",
     "name": "Ares",
     "title": "God of War",
     "pantheon": "Greek",
-    "image": "Ares.webp"
+    "image": "ares.webp"
   },
   {
+    "id": "artemis",
     "name": "Artemis",
     "title": "Goddess of the Hunt",
     "pantheon": "Greek",
-    "image": "Artemis.webp"
+    "image": "artemis.webp"
   },
   {
+    "id": "artio",
     "name": "Artio",
     "title": "The Bear Goddess",
     "pantheon": "Celtic",
-    "image": "Artio.webp"
+    "image": "artio.webp"
   },
   {
+    "id": "athena",
     "name": "Athena",
     "title": "Goddess of Wisdom",
     "pantheon": "Greek",
-    "image": "Athena.webp"
+    "image": "athena.webp"
   },
   {
+    "id": "atlas",
     "name": "Atlas",
     "title": "Titan of the Cosmos",
     "pantheon": "Greek",
-    "image": "Atlas.webp"
+    "image": "atlas.webp"
   },
   {
+    "id": "awilix",
     "name": "Awilix",
     "title": "Goddess of the Moon",
     "pantheon": "Maya",
-    "image": "Awilix.webp"
+    "image": "awilix.webp"
   },
   {
+    "id": "baba-yaga",
     "name": "Baba Yaga",
     "title": "Witch of the Woods",
     "pantheon": "Slavic",
-    "image": "Baba-Yaga.webp"
+    "image": "baba-yaga.webp"
   },
   {
+    "id": "bacchus",
     "name": "Bacchus",
     "title": "God of Wine",
     "pantheon": "Roman",
-    "image": "Bacchus.webp"
+    "image": "bacchus.webp"
   },
   {
+    "id": "bakasura",
     "name": "Bakasura",
     "title": "the Great Devourer",
     "pantheon": "Hindu",
-    "image": "Bakasura.webp"
+    "image": "bakasura.webp"
   },
   {
+    "id": "baron-samedi",
     "name": "Baron Samedi",
     "title": "God of Life and Death",
     "pantheon": "Voodoo",
-    "image": "Baron-Samedi.webp"
+    "image": "baron-samedi.webp"
   },
   {
+    "id": "bastet",
     "name": "Bastet",
     "title": "Goddess of Cats",
     "pantheon": "Egyptian",
-    "image": "Bastet.webp"
+    "image": "bastet.webp"
   },
   {
+    "id": "bellona",
     "name": "Bellona",
     "title": "Goddess of War",
     "pantheon": "Roman",
-    "image": "Bellona.webp"
+    "image": "bellona.webp"
   },
   {
+    "id": "cabrakan",
     "name": "Cabrakan",
     "title": "Destroyer of Mountains",
     "pantheon": "Maya",
-    "image": "Cabrakan.webp"
+    "image": "cabrakan.webp"
   },
   {
+    "id": "camazotz",
     "name": "Camazotz",
     "title": "Deadly God of Bats",
     "pantheon": "Maya",
-    "image": "Camazotz.webp"
+    "image": "camazotz.webp"
   },
   {
+    "id": "cerberus",
     "name": "Cerberus",
     "title": "Warden of the Underworld",
     "pantheon": "Greek",
-    "image": "Cerberus.webp"
+    "image": "cerberus.webp"
   },
   {
+    "id": "cernunnos",
     "name": "Cernunnos",
     "title": "The Horned God",
     "pantheon": "Celtic",
-    "image": "Cernunnos.webp"
+    "image": "cernunnos.webp"
   },
   {
+    "id": "chaac",
     "name": "Chaac",
     "title": "God of Rain",
     "pantheon": "Maya",
-    "image": "Chaac.webp"
+    "image": "chaac.webp"
   },
   {
+    "id": "chang-e",
     "name": "Chang'e",
     "title": "Faerie of the Moon",
     "pantheon": "Chinese",
-    "image": "Chang'e.webp"
+    "image": "chang-e.webp"
   },
   {
+    "id": "charybdis",
     "name": "Charybdis",
     "title": "The Ceaseless Whirlpool",
     "pantheon": "Greek",
-    "image": "Charybdis.webp"
+    "image": "charybdis.webp"
   },
   {
+    "id": "chernobog",
     "name": "Chernobog",
     "title": "Lord of Darkness",
     "pantheon": "Slavic",
-    "image": "Chernobog.webp"
+    "image": "chernobog.webp"
   },
   {
+    "id": "chiron",
     "name": "Chiron",
     "title": "The Great Teacher",
     "pantheon": "Greek",
-    "image": "Chiron.webp"
+    "image": "chiron.webp"
   },
   {
+    "id": "chronos",
     "name": "Chronos",
     "title": "Keeper of Time",
     "pantheon": "Greek",
-    "image": "Chronos.webp"
+    "image": "chronos.webp"
   },
   {
+    "id": "cliodhna",
     "name": "Cliodhna",
     "title": "Queen of the Banshees",
     "pantheon": "Celtic",
-    "image": "Cliodhna.webp"
+    "image": "cliodhna.webp"
   },
   {
+    "id": "cthulhu",
     "name": "Cthulhu",
     "title": "The Great Dreamer",
     "pantheon": "Great-old-ones",
-    "image": "Cthulhu.webp"
+    "image": "cthulhu.webp"
   },
   {
+    "id": "cu-chulainn",
     "name": "Cu Chulainn",
     "title": "Hound of Ulster",
     "pantheon": "Celtic",
-    "image": "Cu-Chulainn.webp"
+    "image": "cu-chulainn.webp"
   },
   {
+    "id": "cupid",
     "name": "Cupid",
     "title": "God of Love",
     "pantheon": "Roman",
-    "image": "Cupid.webp"
+    "image": "cupid.webp"
   },
   {
+    "id": "da-ji",
     "name": "Da Ji",
     "title": "The Nine-Tailed Fox",
     "pantheon": "Chinese",
-    "image": "Da-Ji.webp"
+    "image": "da-ji.webp"
   },
   {
+    "id": "danzaburou",
     "name": "Danzaburou",
     "title": "The Legendary Tanuki",
     "pantheon": "Japanese",
-    "image": "Danzaburou.webp"
+    "image": "danzaburou.webp"
   },
   {
+    "id": "discordia",
     "name": "Discordia",
     "title": "Goddess of Strife",
     "pantheon": "Roman",
-    "image": "Discordia.webp"
+    "image": "discordia.webp"
   },
   {
+    "id": "erlang-shen",
     "name": "Erlang Shen",
     "title": "The Illustrious Sage",
     "pantheon": "Chinese",
-    "image": "Erlang-Shen.webp"
+    "image": "erlang-shen.webp"
   },
   {
+    "id": "eset",
     "name": "Eset",
     "title": "Goddess of Magic",
     "pantheon": "Egyptian",
-    "image": "Eset.webp"
+    "image": "eset.webp"
   },
   {
+    "id": "fafnir",
     "name": "Fafnir",
     "title": "The Lord of Glittering Gold",
     "pantheon": "Norse",
-    "image": "Fafnir.webp"
+    "image": "fafnir.webp"
   },
   {
+    "id": "fenrir",
     "name": "Fenrir",
     "title": "the Unbound",
     "pantheon": "Norse",
-    "image": "Fenrir.webp"
+    "image": "fenrir.webp"
   },
   {
+    "id": "freya",
     "name": "Freya",
     "title": "Queen of the Valkyries",
     "pantheon": "Norse",
-    "image": "Freya.webp"
+    "image": "freya.webp"
   },
   {
+    "id": "ganesha",
     "name": "Ganesha",
     "title": "God of Success",
     "pantheon": "Hindu",
-    "image": "Ganesha.webp"
+    "image": "ganesha.webp"
   },
   {
+    "id": "geb",
     "name": "Geb",
     "title": "God of Earth",
     "pantheon": "Egyptian",
-    "image": "Geb.webp"
+    "image": "geb.webp"
   },
   {
+    "id": "gilgamesh",
     "name": "Gilgamesh",
     "title": "King Of Uruk",
     "pantheon": "Babylonian",
-    "image": "Gilgamesh.webp"
+    "image": "gilgamesh.webp"
   },
   {
+    "id": "guan-yu",
     "name": "Guan Yu",
     "title": "Saint of War",
     "pantheon": "Chinese",
-    "image": "Guan-Yu.webp"
+    "image": "guan-yu.webp"
   },
   {
+    "id": "hachiman",
     "name": "Hachiman",
     "title": "Lord of the Eight Banners",
     "pantheon": "Japanese",
-    "image": "Hachiman.webp"
+    "image": "hachiman.webp"
   },
   {
+    "id": "hades",
     "name": "Hades",
     "title": "King of the Underworld",
     "pantheon": "Greek",
-    "image": "Hades.webp"
+    "image": "hades.webp"
   },
   {
+    "id": "he-bo",
     "name": "He Bo",
     "title": "God of the Yellow River",
     "pantheon": "Chinese",
-    "image": "He-Bo.webp"
+    "image": "he-bo.webp"
   },
   {
+    "id": "heimdallr",
     "name": "Heimdallr",
     "title": "The Vigilant",
     "pantheon": "Norse",
-    "image": "Heimdallr.webp"
+    "image": "heimdallr.webp"
   },
   {
+    "id": "hel",
     "name": "Hel",
     "title": "Goddess of the Underworld",
     "pantheon": "Norse",
-    "image": "Hel.webp"
+    "image": "hel.webp"
   },
   {
+    "id": "hera",
     "name": "Hera",
     "title": "Queen of the Gods",
     "pantheon": "Greek",
-    "image": "Hera.webp"
+    "image": "hera.webp"
   },
   {
+    "id": "hercules",
     "name": "Hercules",
     "title": "Champion of Rome",
     "pantheon": "Roman",
-    "image": "Hercules.webp"
+    "image": "hercules.webp"
   },
   {
+    "id": "horus",
     "name": "Horus",
     "title": "The Rightful Heir",
     "pantheon": "Egyptian",
-    "image": "Horus.webp"
+    "image": "horus.webp"
   },
   {
+    "id": "hou-yi",
     "name": "Hou Yi",
     "title": "Defender of the Earth",
     "pantheon": "Chinese",
-    "image": "Hou-Yi.webp"
+    "image": "hou-yi.webp"
   },
   {
+    "id": "hun-batz",
     "name": "Hun Batz",
     "title": "the Howler Monkey God",
     "pantheon": "Maya",
-    "image": "Hun-Batz.webp"
+    "image": "hun-batz.webp"
   },
   {
+    "id": "ishtar",
     "name": "Ishtar",
     "title": "Goddess of Love and War",
     "pantheon": "Babylonian",
-    "image": "Ishtar.webp"
+    "image": "ishtar.webp"
   },
   {
+    "id": "izanami",
     "name": "Izanami",
     "title": "Matron of the Dead",
     "pantheon": "Japanese",
-    "image": "Izanami.webp"
+    "image": "izanami.webp"
   },
   {
+    "id": "janus",
     "name": "Janus",
     "title": "God of Portals and Transitions",
     "pantheon": "Roman",
-    "image": "Janus.webp"
+    "image": "janus.webp"
   },
   {
+    "id": "jing-wei",
     "name": "Jing Wei",
     "title": "The Oathkeeper",
     "pantheon": "Chinese",
-    "image": "Jing-Wei.webp"
+    "image": "jing-wei.webp"
   },
   {
+    "id": "jormungandr",
     "name": "Jormungandr",
     "title": "The World Serpent",
     "pantheon": "Norse",
-    "image": "Jormungandr.webp"
+    "image": "jormungandr.webp"
   },
   {
+    "id": "kali",
     "name": "Kali",
     "title": "Goddess of Destruction",
     "pantheon": "Hindu",
-    "image": "Kali.webp"
+    "image": "kali.webp"
   },
   {
+    "id": "khepri",
     "name": "Khepri",
     "title": "The Dawn Bringer",
     "pantheon": "Egyptian",
-    "image": "Khepri.webp"
+    "image": "khepri.webp"
   },
   {
+    "id": "king-arthur",
     "name": "King Arthur",
     "title": "Wielder of Excalibur",
     "pantheon": "Arthurian",
-    "image": "King-Arthur.webp"
+    "image": "king-arthur.webp"
   },
   {
+    "id": "kukulkan",
     "name": "Kukulkan",
     "title": "Serpent of the Nine Winds",
     "pantheon": "Maya",
-    "image": "Kukulkan.webp"
+    "image": "kukulkan.webp"
   },
   {
+    "id": "kumbhakarna",
     "name": "Kumbhakarna",
     "title": "The Sleeping Giant",
     "pantheon": "Hindu",
-    "image": "Kumbhakarna.webp"
+    "image": "kumbhakarna.webp"
   },
   {
+    "id": "kuzenbo",
     "name": "Kuzenbo",
     "title": "King Kappa",
     "pantheon": "Japanese",
-    "image": "Kuzenbo.webp"
+    "image": "kuzenbo.webp"
   },
   {
+    "id": "lancelot",
     "name": "Lancelot",
     "title": "First Knight of the Round Table",
     "pantheon": "Arthurian",
-    "image": "Lancelot.webp"
+    "image": "lancelot.webp"
   },
   {
+    "id": "loki",
     "name": "Loki",
     "title": "The Trickster God",
     "pantheon": "Norse",
-    "image": "Loki.webp"
+    "image": "loki.webp"
   },
   {
+    "id": "maui",
     "name": "Maui",
     "title": "Hero of Hawai‘i",
     "pantheon": "Polynesian",
-    "image": "Maui.webp"
+    "image": "maui.webp"
   },
   {
+    "id": "medusa",
     "name": "Medusa",
     "title": "The Gorgon",
     "pantheon": "Greek",
-    "image": "Medusa.webp"
+    "image": "medusa.webp"
   },
   {
+    "id": "mercury",
     "name": "Mercury",
     "title": "Messenger of the Gods",
     "pantheon": "Roman",
-    "image": "Mercury.webp"
+    "image": "mercury.webp"
   },
   {
+    "id": "merlin",
     "name": "Merlin",
     "title": "The Master Wizard",
     "pantheon": "Arthurian",
-    "image": "Merlin.webp"
+    "image": "merlin.webp"
   },
   {
+    "id": "morgan-le-fay",
     "name": "Morgan Le Fay",
     "title": "The Dark Enchantress",
     "pantheon": "Arthurian",
-    "image": "Morgan-Le-Fay.webp"
+    "image": "morgan-le-fay.webp"
   },
   {
+    "id": "mulan",
     "name": "Mulan",
     "title": "The Ascendant Warrior",
     "pantheon": "Chinese",
-    "image": "Mulan.webp"
+    "image": "mulan.webp"
   },
   {
+    "id": "ne-zha",
     "name": "Ne Zha",
     "title": "the Third Lotus Prince",
     "pantheon": "Chinese",
-    "image": "Ne-Zha.webp"
+    "image": "ne-zha.webp"
   },
   {
+    "id": "neith",
     "name": "Neith",
     "title": "Weaver of Fate",
     "pantheon": "Egyptian",
-    "image": "Neith.webp"
+    "image": "neith.webp"
   },
   {
+    "id": "nemesis",
     "name": "Nemesis",
     "title": "Goddess of Vengeance",
     "pantheon": "Greek",
-    "image": "Nemesis.webp"
+    "image": "nemesis.webp"
   },
   {
+    "id": "nike",
     "name": "Nike",
     "title": "Goddess of Victory",
     "pantheon": "Greek",
-    "image": "Nike.webp"
+    "image": "nike.webp"
   },
   {
+    "id": "nox",
     "name": "Nox",
     "title": "Goddess of Night",
     "pantheon": "Roman",
-    "image": "Nox.webp"
+    "image": "nox.webp"
   },
   {
+    "id": "nu-wa",
     "name": "Nu Wa",
     "title": "Guardian of Heaven",
     "pantheon": "Chinese",
-    "image": "Nu-Wa.webp"
+    "image": "nu-wa.webp"
   },
   {
+    "id": "odin",
     "name": "Odin",
     "title": "The Allfather",
     "pantheon": "Norse",
-    "image": "Odin.webp"
+    "image": "odin.webp"
   },
   {
+    "id": "olorun",
     "name": "Olorun",
     "title": "Ruler of the Heavens",
     "pantheon": "Yoruba",
-    "image": "Olorun.webp"
+    "image": "olorun.webp"
   },
   {
+    "id": "osiris",
     "name": "Osiris",
     "title": "Broken God of the Afterlife",
     "pantheon": "Egyptian",
-    "image": "Osiris.webp"
+    "image": "osiris.webp"
   },
   {
+    "id": "pele",
     "name": "Pele",
     "title": "Goddess of Volcanoes",
     "pantheon": "Polynesian",
-    "image": "Pele.webp"
+    "image": "pele.webp"
   },
   {
+    "id": "persephone",
     "name": "Persephone",
     "title": "Queen of the Underworld",
     "pantheon": "Greek",
-    "image": "Persephone.webp"
+    "image": "persephone.webp"
   },
   {
+    "id": "poseidon",
     "name": "Poseidon",
     "title": "God of the Oceans",
     "pantheon": "Greek",
-    "image": "Poseidon.webp"
+    "image": "poseidon.webp"
   },
   {
+    "id": "ra",
     "name": "Ra",
     "title": "Sun God",
     "pantheon": "Egyptian",
-    "image": "Ra.webp"
+    "image": "ra.webp"
   },
   {
+    "id": "raijin",
     "name": "Raijin",
     "title": "Master of Thunder",
     "pantheon": "Japanese",
-    "image": "Raijin.webp"
+    "image": "raijin.webp"
   },
   {
+    "id": "rama",
     "name": "Rama",
     "title": "Seventh Avatar of Vishnu",
     "pantheon": "Hindu",
-    "image": "Rama.webp"
+    "image": "rama.webp"
   },
   {
+    "id": "ratatoskr",
     "name": "Ratatoskr",
     "title": "The Sly Messenger",
     "pantheon": "Norse",
-    "image": "Ratatoskr.webp"
+    "image": "ratatoskr.webp"
   },
   {
+    "id": "ravana",
     "name": "Ravana",
     "title": "Demon King of Lanka",
     "pantheon": "Hindu",
-    "image": "Ravana.webp"
+    "image": "ravana.webp"
   },
   {
+    "id": "scylla",
     "name": "Scylla",
     "title": "Horror of the Sea",
     "pantheon": "Greek",
-    "image": "Scylla.webp"
+    "image": "scylla.webp"
   },
   {
+    "id": "serqet",
     "name": "Serqet",
     "title": "Goddess of Venom",
     "pantheon": "Egyptian",
-    "image": "Serqet.webp"
+    "image": "serqet.webp"
   },
   {
+    "id": "set",
     "name": "Set",
     "title": "The Usurper",
     "pantheon": "Egyptian",
-    "image": "Set.webp"
+    "image": "set.webp"
   },
   {
+    "id": "shiva",
     "name": "Shiva",
     "title": "The Destroyer",
     "pantheon": "Hindu",
-    "image": "Shiva.webp"
+    "image": "shiva.webp"
   },
   {
+    "id": "skadi",
     "name": "Skadi",
     "title": "Goddess of Winter",
     "pantheon": "Norse",
-    "image": "Skadi.webp"
+    "image": "skadi.webp"
   },
   {
+    "id": "sobek",
     "name": "Sobek",
     "title": "God of the Nile",
     "pantheon": "Egyptian",
-    "image": "Sobek.webp"
+    "image": "sobek.webp"
   },
   {
+    "id": "sol",
     "name": "Sol",
     "title": "Goddess of the Sun",
     "pantheon": "Norse",
-    "image": "Sol.webp"
+    "image": "sol.webp"
   },
   {
+    "id": "sun-wukong",
     "name": "Sun Wukong",
     "title": "the Monkey King",
     "pantheon": "Chinese",
-    "image": "Sun-Wukong.webp"
+    "image": "sun-wukong.webp"
   },
   {
+    "id": "susano",
     "name": "Susano",
     "title": "God of the Summer Storm",
     "pantheon": "Japanese",
-    "image": "Susano.webp"
+    "image": "susano.webp"
   },
   {
+    "id": "sylvanus",
     "name": "Sylvanus",
     "title": "Keeper of the Wild",
     "pantheon": "Roman",
-    "image": "Sylvanus.webp"
+    "image": "sylvanus.webp"
   },
   {
+    "id": "terra",
     "name": "Terra",
     "title": "The Earth Mother",
     "pantheon": "Roman",
-    "image": "Terra.webp"
+    "image": "terra.webp"
   },
   {
+    "id": "thanatos",
     "name": "Thanatos",
     "title": "Hand of Death",
     "pantheon": "Greek",
-    "image": "Thanatos.webp"
+    "image": "thanatos.webp"
   },
   {
+    "id": "the-morrigan",
     "name": "The Morrigan",
     "title": "Phantom Queen",
     "pantheon": "Celtic",
-    "image": "The-Morrigan.webp"
+    "image": "the-morrigan.webp"
   },
   {
+    "id": "thor",
     "name": "Thor",
     "title": "God of Thunder",
     "pantheon": "Norse",
-    "image": "Thor.webp"
+    "image": "thor.webp"
   },
   {
+    "id": "thoth",
     "name": "Thoth",
     "title": "Arbiter of the Damned",
     "pantheon": "Egyptian",
-    "image": "Thoth.webp"
+    "image": "thoth.webp"
   },
   {
+    "id": "tiamat",
     "name": "Tiamat",
     "title": "Goddess of the Salt Sea",
     "pantheon": "Babylonian",
-    "image": "Tiamat.webp"
+    "image": "tiamat.webp"
   },
   {
+    "id": "tsukuyomi",
     "name": "Tsukuyomi",
     "title": "God of the Moon",
     "pantheon": "Japanese",
-    "image": "Tsukuyomi.webp"
+    "image": "tsukuyomi.webp"
   },
   {
+    "id": "tyr",
     "name": "Tyr",
     "title": "the Lawgiver",
     "pantheon": "Norse",
-    "image": "Tyr.webp"
+    "image": "tyr.webp"
   },
   {
+    "id": "ullr",
     "name": "Ullr",
     "title": "The Glorious One",
     "pantheon": "Norse",
-    "image": "Ullr.webp"
+    "image": "ullr.webp"
   },
   {
+    "id": "vamana",
     "name": "Vamana",
     "title": "Fifth Avatar of Vishnu",
     "pantheon": "Hindu",
-    "image": "Vamana.webp"
+    "image": "vamana.webp"
   },
   {
+    "id": "vulcan",
     "name": "Vulcan",
     "title": "Smith of the Gods",
     "pantheon": "Roman",
-    "image": "Vulcan.webp"
+    "image": "vulcan.webp"
   },
   {
+    "id": "xbalanque",
     "name": "Xbalanque",
     "title": "Hidden Jaguar Sun",
     "pantheon": "Maya",
-    "image": "Xbalanque.webp"
+    "image": "xbalanque.webp"
   },
   {
+    "id": "xing-tian",
     "name": "Xing Tian",
     "title": "The Relentless",
     "pantheon": "Chinese",
-    "image": "Xing-Tian.webp"
+    "image": "xing-tian.webp"
   },
   {
+    "id": "yemoja",
     "name": "Yemoja",
     "title": "Goddess of Rivers",
     "pantheon": "Yoruba",
-    "image": "Yemoja.webp"
+    "image": "yemoja.webp"
   },
   {
+    "id": "ymir",
     "name": "Ymir",
     "title": "Father of the Frost Giants",
     "pantheon": "Norse",
-    "image": "Ymir.webp"
+    "image": "ymir.webp"
   },
   {
+    "id": "yu-huang",
     "name": "Yu Huang",
     "title": "The Jade Emperor",
     "pantheon": "Chinese",
-    "image": "Yu-Huang.webp"
+    "image": "yu-huang.webp"
   },
   {
+    "id": "zeus",
     "name": "Zeus",
     "title": "God of the Sky",
     "pantheon": "Greek",
-    "image": "Zeus.webp"
+    "image": "zeus.webp"
   },
   {
+    "id": "zhong-kui",
     "name": "Zhong Kui",
     "title": "the Demon Queller",
     "pantheon": "Chinese",
-    "image": "Zhong-Kui.webp"
+    "image": "zhong-kui.webp"
   }
 ]
