@@ -721,6 +721,13 @@
     "image": "sun-wukong.webp"
   },
   {
+    "id": "surtr",
+    "name": "Surtr",
+    "title": "The Fire Giant",
+    "pantheon": "Norse",
+    "image": "surtr.webp"
+  },
+  {
     "id": "susano",
     "name": "Susano",
     "title": "God of the Summer Storm",
